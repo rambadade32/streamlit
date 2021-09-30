@@ -102,7 +102,7 @@ preds = clf.predict(X_test)
 
 accuracy = accuracy_score(y_test, preds)
 
-st.write(f'classifier = SVM')
+st.write(f'classifier = {classifier_name}')
 st.write(f'Accuracy = {accuracy}')
 
 # PLOT DATASET ####
